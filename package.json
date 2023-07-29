@@ -1,0 +1,24 @@
+{
+  "name": "api_bego",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/121218952415/api_BeGo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/121218952415/api_BeGo/issues"
+  },
+  "homepage": "https://github.com/121218952415/api_BeGo#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "typescript": "^5.1.6"
+  }
+}
