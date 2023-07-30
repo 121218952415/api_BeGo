@@ -7,8 +7,8 @@
     "stat": "ts-node-dev index.ts",
     "dev": "concurrently \"tsc -w\" \"nodemon index.ts\"",
     "tc": "tsc",
-    "st": "concurrently \"tsc --watch\" \"nodemon index.ts\"",
-    "start": "nodemon index.ts",
+    "start": "concurrently \"tsc --watch\" \"nodemon index.ts\"",
+    "star": "nodemon index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
