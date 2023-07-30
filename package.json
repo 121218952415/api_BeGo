@@ -4,6 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "stat": "ts-node-dev index.ts",
+    "dev": "concurrently \"tsc -w\" \"nodemon index.ts\"",
+    "tc": "tsc",
+    "st": "concurrently \"tsc --watch\" \"nodemon index.ts\"",
+    "start": "nodemon index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +23,22 @@
   },
   "homepage": "https://github.com/121218952415/api_BeGo#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.4.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.2",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "github:types/express",
+    "@types/mongoose": "^5.11.97",
+    "@types/morgan": "^1.9.4",
+    "tsc-watch": "^6.0.4",
     "typescript": "^5.1.6"
   }
 }
